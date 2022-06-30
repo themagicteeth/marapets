@@ -9,6 +9,8 @@
 // @license     MIT
 // ==/UserScript==
 
+'use strict'
+
 /**
  * Put PIN here.
  */

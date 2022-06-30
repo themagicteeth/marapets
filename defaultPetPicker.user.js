@@ -20,6 +20,8 @@
 // @license     MIT
 // ==/UserScript==
 
+'use strict'
+
 /**
  * TODO:  Cure pet who gets sick on rollercoaster, or at fountain
  * 
