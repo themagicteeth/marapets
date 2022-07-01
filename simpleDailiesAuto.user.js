@@ -19,40 +19,74 @@
 // @match       https://www.marapets.com/vending.php
 // @match       https://www.marapets.com/darkfairy.php
 // @match       https://www.marapets.com/gumball.php
-// @match       https://www.marapets.com/magazines.php
-// @match       https://www.marapets.com/newsagent.php
 // @match       https://www.marapets.com/scratchcards2.php
 // @match       https://www.marapets.com/sugarstack.php
 // @match       https://www.marapets.com/sultan.php
 // @match       https://www.marapets.com/sword.php
 // @match       https://www.marapets.com/telescope.php
 // @match       https://www.marapets.com/tombola*
+// @match       https://www.marapets.com/guesstheweight.php
+// @match       https://www.marapets.com/trojan.php
+// @match       https://www.marapets.com/fruitmachine.php
+// @match       https://www.marapets.com/jobs.php
 // @license     MIT
 // ==/UserScript==
 
-'use strict'
+"use strict"
 
 /**
  * TODO: Add collecting wages from Job Agency
  * TODO: Add collecting interest from RP, BP, and MP banks
- * TODO: Add Fruit Machine
- * TODO: Add Daily Discount
+ * TODO: Check is we still need to check for .comebackbox
  */
 
-// Basic dailies, with just a single button and no delay needed
 if (!document.querySelector("div.middleit.comebackbox")) {
+  // Guess the Flag
+  const countryGuess = document.querySelector("input[name='country']")
+  if (countryGuess) {
+    const country = document
+      .querySelector("form .middleit img")
+      .getAttribute("src")
+      .split("_")[1]
+      .split(".")[0]
+
+    const fixCountry = {
+      Bosnia: "Bosnia and Herzegovina",
+      Trinidad: "Trinidad and Tobago",
+      UK: "United Kingdom",
+      UAE: "United Arab Emirates",
+    }
+
+    countryGuess.value = fixCountry[country] ? fixCountry[country] : country
+    document.querySelector("input[value='Guess the Flag']").click()
+  }
+
+  // Guess the Weight
+  const weightInput = document.querySelector("input[name='weight'")
+  if (weightInput) {
+    weightInput.value = Math.floor(Math.random() * 100)
+    document.querySelector("input[value='Guess the Weight']").click()
+  }
+
+  //Basic dailies
   const submit = document.querySelector("input[type='submit']")
   if (submit) {
     submit.click()
   }
 }
 
+// Fruit Machine, and Daily Discount
+const startSpin = document.getElementById("startSpin")
+if (startSpin) {
+  setTimeout(() => {
+    startSpin.click()
+  }, 500)
+}
+
 // Tombola, needs a delay before clicking
-if (document.URL.includes("tombola")) {
-  const takeTicket = document.getElementById("playTombola")
-  if (takeTicket) {
-    setTimeout(() => {
-      takeTicket.click()
-    }, 500)
-  }
+const takeTicket = document.getElementById("playTombola")
+if (takeTicket) {
+  setTimeout(() => {
+    takeTicket.click()
+  }, 500)
 }
