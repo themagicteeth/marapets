@@ -1,0 +1,7 @@
+{
+    "recommendations": [
+        "esbenp.prettier-vscode",
+        "adpyke.vscode-userscript",
+        "aaron-bond.better-comments"
+    ]
+}

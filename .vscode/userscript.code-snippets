@@ -1,0 +1,23 @@
+{
+	"Userscript metadata": {
+		"scope": "javascript",
+		"prefix": "user",
+		"body": [
+			"// ==UserScript==",
+			"// @name        $1",
+			"// @namespace   Marascripts",
+			"// @description $2",
+			"// @grant       none",
+			"// @author      themagicteeth",
+			"// @version     1.0.0",
+			"// @match       https://www.marapets.com/*",
+			"// @license     MIT",
+			"// ==/UserScript==",
+			"",
+			"'use strict'",
+			"",
+			"$0"
+		],
+		"description": "Metadata block for userscript"
+	}
+}
