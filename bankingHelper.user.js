@@ -1,15 +1,18 @@
 // ==UserScript==
-// @name        PIN Helper
+// @name        Banking Helper
 // @namespace   Marascripts
 // @description Automatically fills in your pin at the ATM.
 // @grant       none
 // @author      themagicteeth
 // @version     1.0.0
 // @match       https://www.marapets.com/atm.php
+// @match       https://www.marapets.com/bpbank.php
+// @match       https://www.marapets.com/rpbank.php
+// @match       https://www.marapets.com/bank.php
 // @license     MIT
 // ==/UserScript==
 
-'use strict'
+"use strict"
 
 /**
  * Put PIN here.
@@ -27,3 +30,11 @@ const WITHDRAW = document.querySelector(
 // Set the value to your PIN
 DEPOSIT.value = MY_PIN
 WITHDRAW.value = MY_PIN
+
+// Collect interest
+const button = [...document.querySelectorAll("input")].find((e) =>
+  e.value.includes("Interst")
+)
+if (button) {
+  button.click()
+}
