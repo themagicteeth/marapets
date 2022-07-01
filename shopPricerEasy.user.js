@@ -2,11 +2,15 @@
 // @name        Shop Pricer Easymode
 // @namespace   Marascripts
 // @description Automates repricing shop, requires the Gift Box
+// @updateURL   https://github.com/themagicteeth/marapets/raw/main/shopPricerEasy.user.js
 // @grant       GM_getValue
 // @grant       GM_setValue
 // @author      themagicteeth
 // @version     1.0.0
 // @match       https://www.marapets.com/viewstock.php*
+// @homepageURL https://github.com/themagicteeth/marapets
+// @supportURL  https://github.com/themagicteeth/marapets/issues
+// @icon        https://marapets.com/favicon.ico
 // @license     MIT
 // ==/UserScript==
 

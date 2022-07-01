@@ -2,10 +2,14 @@
 // @name        Olympics Helper
 // @namespace   Marascripts
 // @description Picks the best Olympic event for each pet.
+// @updateURL   https://github.com/themagicteeth/marapets/raw/main/olympicsHelper.user.js
 // @grant       none
 // @author      themagicteeth
 // @version     1.0.0
 // @match       https://www.marapets.com/competitions.php
+// @homepageURL https://github.com/themagicteeth/marapets
+// @supportURL  https://github.com/themagicteeth/marapets/issues
+// @icon        https://marapets.com/favicon.ico
 // @license     MIT
 // ==/UserScript==
 

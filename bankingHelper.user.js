@@ -2,6 +2,7 @@
 // @name        Banking Helper
 // @namespace   Marascripts
 // @description Automatically fills in your pin at the ATM.
+// @updateURL   https://github.com/themagicteeth/marapets/raw/main/bankingHelper.user.js
 // @grant       none
 // @author      themagicteeth
 // @version     1.0.0
@@ -9,6 +10,9 @@
 // @match       https://www.marapets.com/bpbank.php
 // @match       https://www.marapets.com/rpbank.php
 // @match       https://www.marapets.com/bank.php
+// @homepageURL https://github.com/themagicteeth/marapets
+// @supportURL  https://github.com/themagicteeth/marapets/issues
+// @icon        https://marapets.com/favicon.ico
 // @license     MIT
 // ==/UserScript==
 

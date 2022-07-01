@@ -2,6 +2,7 @@
 // @name        Default Pet Picker
 // @namespace   Marascripts
 // @description Automatically selects your default pet, and does the daily.
+// @updateURL   https://github.com/themagicteeth/marapets/raw/main/defaultPetPicker.user.js
 // @grant       none
 // @author      themagicteeth
 // @version     1.0.0
@@ -17,6 +18,9 @@
 // @match       https://www.marapets.com/elekafountain.php
 // @match       https://www.marapets.com/rollercoaster.php
 // @match       https://www.marapets.com/portal.php
+// @homepageURL https://github.com/themagicteeth/marapets
+// @supportURL  https://github.com/themagicteeth/marapets/issues
+// @icon        https://marapets.com/favicon.ico
 // @license     MIT
 // ==/UserScript==
 

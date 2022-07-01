@@ -2,6 +2,7 @@
 // @name        Battle Helper
 // @namespace   Marascripts
 // @description Auto battles
+// @updateURL   https://github.com/themagicteeth/marapets/raw/main/battleHelper.user.js
 // @grant       none
 // @author      themagicteeth
 // @version     1.0.0
@@ -10,6 +11,9 @@
 // @match       https://www.marapets.com/sumo.php
 // @match       https://www.marapets.com/knight.php
 // @run-at      document-idle
+// @homepageURL https://github.com/themagicteeth/marapets
+// @supportURL  https://github.com/themagicteeth/marapets/issues
+// @icon        https://marapets.com/favicon.ico
 // @license     MIT
 // ==/UserScript==
 

@@ -2,6 +2,7 @@
 // @name        Simple Dailies Auto
 // @namespace   Marascripts
 // @description Completes dailies which just require clicking one button.
+// @updateURL   https://github.com/themagicteeth/marapets/raw/main/simpleDailiesAuto.user.js
 // @grant       none
 // @author      themagicteeth
 // @version     1.0.0
@@ -29,6 +30,9 @@
 // @match       https://www.marapets.com/trojan.php
 // @match       https://www.marapets.com/fruitmachine.php
 // @match       https://www.marapets.com/jobs.php
+// @homepageURL https://github.com/themagicteeth/marapets
+// @supportURL  https://github.com/themagicteeth/marapets/issues
+// @icon        https://marapets.com/favicon.ico
 // @license     MIT
 // ==/UserScript==
 
