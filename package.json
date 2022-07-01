@@ -1,0 +1,11 @@
+{
+  "devDependencies": {
+    "jshint": "^2.13.4"
+  },
+  "jshintConfig": {
+    "esversion": 11,
+    "browser": true,
+    "devel": true,
+    "strict": "global"
+  }
+}
