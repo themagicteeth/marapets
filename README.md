@@ -1,4 +1,15 @@
 # Marascripts
+This is a collection of userscripts I have created for use with the Marapets digital pet site.
+## Requirements
+In order to use these, a userscript manager is required.
+
+| Name           | Chrome                                                                                                    | Firefox                                                                  | Notes                                                                      |
+| :------------- | :-------------------------------------------------------------------------------------------------------- | :----------------------------------------------------------------------- | :------------------------------------------------------------------------- |
+| Firemonkey     | Not available                                                                                             | [Install](https://addons.mozilla.org/en-US/firefox/addon/firemonkey/)    | Reccommended if using Firefox, uses native userscipt engine and is faster. |
+| Banking Helper | [Install](https://chrome.google.com/webstore/detail/violentmonkey/jinjaccalgkegednnccohejagnlnfdag?hl=en) | [Install](https://addons.mozilla.org/en-US/firefox/addon/violentmonkey/) | Reccommended for Chrome, works with Firefox too.                           |
+
+## Scripts
+Once you have the script manager, click the install link next to the script you want.
 
 | Name                         |                             Description                             |                                                                                          Install |
 | :--------------------------- | :-----------------------------------------------------------------: | -----------------------------------------------------------------------------------------------: |
