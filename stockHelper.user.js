@@ -11,17 +11,14 @@
 
 'use strict'
 
-const ON_COOLDOWN = document.querySelector(".middleit.comebackbox")
-
-if (!ON_COOLDOWN) {
+if (!document.querySelector(".middleit.comebackbox")) {
   const ON_BUY_PAGE = document.URL.includes("?do=company")
 
   if (!ON_BUY_PAGE) {
     let lowestPrice = 99_999
     let buyLink = ""
-    const allCompanies = document.querySelectorAll(".fairyreward_box .itempadding span.currencytext b")
 
-    allCompanies.forEach((company) => {
+    document.querySelectorAll(".fairyreward_box .itempadding span.currencytext b").forEach((company) => {
       const price = parseInt(company.innerText.split("MP")[0].replace(/,/g, ''))
       if (price < lowestPrice && price >= 100) {
         lowestPrice = price
@@ -33,10 +30,7 @@ if (!ON_COOLDOWN) {
   }
 
   if (ON_BUY_PAGE) {
-    const sharesToBuy = document.querySelector("input[name='amount']")
-    sharesToBuy.value = 100
-
-    const buyShares = document.querySelector("input[name='Submit']")
-    buyShares.click()
+    document.querySelector("input[name='amount']").value = 100
+    document.querySelector("input[name='Submit']").click()
   }
 }
