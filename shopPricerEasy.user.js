@@ -30,7 +30,7 @@ if (document.referrer.includes("/viewstock")) {
   if (autoPriced === -1 && changed === -1 && !noReprice) document.querySelector("input[value='Auto Price']").click()
   
   // Click the "Update Prices" button, if the auto pricer message is there
-  if (autoPriced !== -1) {
+  else if (autoPriced !== -1) {
     // const mediumDrop = document.querySelectorAll(".marapets_border14")
     const largeDrop = document.querySelectorAll(".marapets_border15")
     if (largeDrop.length !== 0) {
