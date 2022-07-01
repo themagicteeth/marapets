@@ -15,29 +15,25 @@
 // @icon        https://marapets.com/favicon.ico
 // @license     MIT
 // ==/UserScript==
+/*jshint -W033 */
 
 "use strict"
 
 /**
- * Put PIN here.
+ * * Put PIN here.
  */
 const MY_PIN = "0000"
 
-// Deposit and Withdraw input boxes
-const DEPOSIT = document.querySelector(
+document.querySelector(
   "form[action='https://www.marapets.com/atm.php?do=deposit'] input[name='pin']"
-)
-const WITHDRAW = document.querySelector(
+).value = MY_PIN
+
+document.querySelector(
   "form[action='https://www.marapets.com/atm.php?do=withdraw'] input[name='pin']"
-)
+).value = MY_PIN
 
-// Set the value to your PIN
-DEPOSIT.value = MY_PIN
-WITHDRAW.value = MY_PIN
-
-// Collect interest
 const button = [...document.querySelectorAll("input")].find((e) =>
-  e.value.includes("Interst")
+  e.value.includes("Interest")
 )
 if (button) {
   button.click()

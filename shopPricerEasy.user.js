@@ -13,6 +13,7 @@
 // @icon        https://marapets.com/favicon.ico
 // @license     MIT
 // ==/UserScript==
+/*jshint -W033 */
 
 /**
  * TODO: Stop using GM_setValue and GM_getValue

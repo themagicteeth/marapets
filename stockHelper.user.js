@@ -12,6 +12,7 @@
 // @icon        https://marapets.com/favicon.ico
 // @license     MIT
 // ==/UserScript==
+/*jshint -W033 */
 
 'use strict'
 
@@ -19,7 +20,7 @@ if (!document.querySelector(".middleit.comebackbox")) {
   const ON_BUY_PAGE = document.URL.includes("?do=company")
 
   if (!ON_BUY_PAGE) {
-    let lowestPrice = 99_999
+    let lowestPrice = 99999
     let buyLink = ""
 
     document.querySelectorAll(".fairyreward_box .itempadding span.currencytext b").forEach((company) => {

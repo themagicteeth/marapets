@@ -23,6 +23,7 @@
 // @icon        https://marapets.com/favicon.ico
 // @license     MIT
 // ==/UserScript==
+/*jshint -W033 */
 
 'use strict'
 

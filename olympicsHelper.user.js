@@ -12,6 +12,9 @@
 // @icon        https://marapets.com/favicon.ico
 // @license     MIT
 // ==/UserScript==
+/*jshint -W033 */
+
+"use strict"
 
 /**
  * This is meant to be left open on the Olympics page, it will
