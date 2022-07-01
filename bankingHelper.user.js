@@ -5,7 +5,7 @@
 // @updateURL   https://github.com/themagicteeth/marapets/raw/main/bankingHelper.user.js
 // @grant       none
 // @author      themagicteeth
-// @version     1.0.0
+// @version     1.0.1
 // @match       https://www.marapets.com/atm.php
 // @match       https://www.marapets.com/bpbank.php
 // @match       https://www.marapets.com/rpbank.php
