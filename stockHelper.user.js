@@ -14,7 +14,7 @@
 // ==/UserScript==
 /*jshint -W033 */
 
-'use strict'
+"use strict"
 
 if (!document.querySelector(".middleit.comebackbox")) {
   const ON_BUY_PAGE = document.URL.includes("?do=company")
@@ -24,7 +24,7 @@ if (!document.querySelector(".middleit.comebackbox")) {
     let buyLink = ""
 
     document.querySelectorAll(".fairyreward_box .itempadding span.currencytext b").forEach((company) => {
-      const price = parseInt(company.innerText.split("MP")[0].replace(/,/g, ''))
+      const price = parseInt(company.innerText.split("MP")[0].replace(/,/g, ""))
       if (price < lowestPrice && price >= 100) {
         lowestPrice = price
         buyLink = company.parentElement.parentElement.parentElement.parentElement

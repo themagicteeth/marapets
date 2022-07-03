@@ -28,7 +28,6 @@ if (document.referrer.includes("/viewstock")) {
 
   // Click the "Auto Price" button, if none of the messages are present
   if (autoPriced === -1 && changed === -1 && !noReprice) document.querySelector("input[value='Auto Price']").click()
-  
   // Click the "Update Prices" button, if the auto pricer message is there
   else if (autoPriced !== -1) {
     // const mediumDrop = document.querySelectorAll(".marapets_border14")

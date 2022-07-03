@@ -25,13 +25,13 @@
 // ==/UserScript==
 /*jshint -W033 */
 
-'use strict'
+"use strict"
 
 /**
  * TODO:  Cure pet who gets sick on rollercoaster, or at fountain
- * 
+ *
  * Games supported:
- * 
+ *
  * Guillotine
  * Foxfire Pond
  * Operations Portal
@@ -47,7 +47,7 @@
 const defaultPetImg = document.querySelector(".defaultpet")
 
 if (defaultPetImg) {
-    const defaultPetLink = defaultPetImg.parentElement
-    defaultPetLink.onclick = ""
-    defaultPetLink.click()
+  const defaultPetLink = defaultPetImg.parentElement
+  defaultPetLink.onclick = ""
+  defaultPetLink.click()
 }

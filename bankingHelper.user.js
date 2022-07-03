@@ -24,17 +24,15 @@
  */
 const MY_PIN = "0000"
 
-document.querySelector(
-  "form[action='https://www.marapets.com/atm.php?do=deposit'] input[name='pin']"
-).value = MY_PIN
+// Deposit and Withdraw input boxes
+const DEPOSIT = document.querySelector("form[action='https://www.marapets.com/atm.php?do=deposit'] input[name='pin']")
+const WITHDRAW = document.querySelector("form[action='https://www.marapets.com/atm.php?do=withdraw'] input[name='pin']")
 
-document.querySelector(
-  "form[action='https://www.marapets.com/atm.php?do=withdraw'] input[name='pin']"
-).value = MY_PIN
+// Set the value to your PIN
+DEPOSIT.value = MY_PIN
+WITHDRAW.value = MY_PIN
 
-const button = [...document.querySelectorAll("input")].find((e) =>
-  e.value.includes("Interest")
-)
+const button = [...document.querySelectorAll("input")].find((e) => e.value.includes("Interest"))
 if (button) {
   button.click()
 }
