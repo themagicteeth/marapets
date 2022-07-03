@@ -1,9 +1,11 @@
 {
-    "recommendations": [
-        "esbenp.prettier-vscode",
-        "adpyke.vscode-userscript",
-        "aaron-bond.better-comments",
-        "dbaeumer.jshint",
-        "yzhang.markdown-all-in-one"
-    ]
+  "recommendations": [
+    "esbenp.prettier-vscode",
+    "adpyke.vscode-userscript",
+    "aaron-bond.better-comments",
+    "dbaeumer.jshint",
+    "yzhang.markdown-all-in-one",
+    "vscode-icons-team.vscode-icons",
+    "VisualStudioExptTeam.vscodeintellicode"
+  ]
 }
