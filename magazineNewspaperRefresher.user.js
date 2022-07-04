@@ -5,7 +5,7 @@
 // @updateURL   https://github.com/themagicteeth/marapets/raw/main/magazineNewspaperRefresher.user.js
 // @grant       none
 // @author      themagicteeth
-// @version     1.0.0
+// @version     1.0.1
 // @match       https://www.marapets.com/newsagent.php
 // @match       https://www.marapets.com/magazines.php
 // @homepageURL https://github.com/themagicteeth/marapets
@@ -18,7 +18,7 @@
 "use strict"
 
 setTimeout(() => {
-  location.reload()
+  document.querySelector(".mainfeature_art a").click()
 }, 100000)
 
 const submit = document.querySelector("input[type='submit']")

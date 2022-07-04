@@ -5,7 +5,7 @@
 // @updateURL   https://github.com/themagicteeth/marapets/raw/main/
 // @grant       none
 // @author      themagicteeth
-// @version     1.0.0
+// @version     1.0.1
 // @match       https://www.marapets.com/brew.php*
 // @match       https://www.marapets.com/candytree.php*
 // @match       https://www.marapets.com/farm.php*
@@ -24,6 +24,7 @@
 // @match       https://www.marapets.com/viewstock.php*
 // @match       https://www.marapets.com/shop.php*
 // @match       https://www.marapets.com/shops.php*
+// @match       https://www.marapets.com/attic.php*
 // @homepageURL https://github.com/themagicteeth/marapets
 // @supportURL  https://github.com/themagicteeth/marapets/issues
 // @icon        https://marapets.com/favicon.ico
