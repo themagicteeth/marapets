@@ -5,8 +5,8 @@
 // @updateURL   https://github.com/themagicteeth/marapets/raw/main/avatarSolutions.user.js
 // @grant       none
 // @author      themagicteeth
-// @version     1.0.0
-// @match       https://www.marapets.com/stalker.php
+// @version     1.0.1
+// @match       https://www.marapets.com/stalker.php*
 // @match       https://www.marapets.com/avatars.php?missing=1*
 // @homepageURL https://github.com/themagicteeth/marapets
 // @supportURL  https://github.com/themagicteeth/marapets/issues
